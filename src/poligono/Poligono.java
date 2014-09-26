@@ -1,7 +1,9 @@
 package poligono;
 
 
+import java.awt.Color;
 import java.awt.Graphics;
+
 import graficador.Graficador;
 import graficador.Graficadorimpl;
 
@@ -29,7 +31,8 @@ public class Poligono {
 		this.puntos.add(p);
 	}
 	
-	public void dibujar(Graphics g){
+	public void dibujar(Graphics g,Color color){
+		g.setColor(color);
 		Graficador gr = new Graficadorimpl();
 		
 		

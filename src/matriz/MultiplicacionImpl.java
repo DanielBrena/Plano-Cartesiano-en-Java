@@ -132,4 +132,6 @@ public class MultiplicacionImpl{
 		return poligono_aux;
 	}
 	
+	
+	
 }

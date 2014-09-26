@@ -7,7 +7,7 @@ import matriz.SumaImpl;
 import matriz.Matriz;
 public class Test {
 	public static void main(String[] args){
-		f1();
+		f2();
 	}
 	public static void f2(){
 		Ventana ventana = new Ventana();
